@@ -13,7 +13,7 @@ security:
   oauth2:
     client:
       accessTokenUri: http://localhost:9999/uaa/oauth/token
-      userAuthorizationUri: http://59.110.161.121:9999/uaa/oauth/authorize
+      userAuthorizationUri: http://localhost:9999/uaa/oauth/authorize
       clientId: acme
       clientSecret: acmesecret
 
